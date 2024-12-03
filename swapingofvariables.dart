@@ -11,6 +11,7 @@ void main() {
 
   a = a + b; // 20+15 = 35
   b = a - b; // 35-15 = 20
+  a = a - b;
 
   print('After swaping');
   print('value of a: $a');
